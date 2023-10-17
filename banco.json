@@ -1,0 +1,24 @@
+[
+    {
+        "nombre": "Hernan",
+        "apellido": "Gottardi",
+        "email": "herniag.99@gmail.com",
+        "tipoDoc": "DNI",
+        "tipoCuenta": "CC",
+        "nroDoc": 42284317,
+        "moneda": "$",
+        "saldoInicial": 93038,
+        "nroCuenta": 111111
+    },
+    {
+        "nombre": "Jesabel",
+        "apellido": "Tate",
+        "email": "jes@gmail.com",
+        "tipoDoc": "DNI",
+        "tipoCuenta": "CA",
+        "nroDoc": 43567543,
+        "moneda": "U$S",
+        "saldoInicial": 90000,
+        "nroCuenta": 111112
+    }
+]

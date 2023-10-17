@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "tipoCuenta": "CC",
+        "nroCuenta": 111111,
+        "moneda": "$",
+        "monto": 434,
+        "fecha": "17-10-23"
+    },
+    {
+        "id": 2,
+        "tipoCuenta": "CC",
+        "nroCuenta": 111111,
+        "moneda": "$",
+        "monto": 434,
+        "fecha": "17-10-23"
+    },
+    {
+        "id": 3,
+        "tipoCuenta": "CC",
+        "nroCuenta": 111111,
+        "moneda": "$",
+        "monto": 434,
+        "fecha": "17-10-23"
+    }
+]
