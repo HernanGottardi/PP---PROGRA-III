@@ -1,0 +1,13 @@
+[
+    {
+        "nombre": "Hernan",
+        "apellido": "Gottardi",
+        "email": "herniag.99@gmail.com",
+        "tipoDoc": "DNI",
+        "tipoCuenta": "CC",
+        "nroDoc": 42284317,
+        "moneda": "$",
+        "saldoInicial": 20000,
+        "nroCuenta": 183350
+    }
+]
