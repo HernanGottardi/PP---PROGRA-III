@@ -285,6 +285,7 @@ class Cuenta implements JsonSerializable
     }
 
     public static function guardarImagen ($cuenta, $folder = "ImagenesDeCuentas/2023")
+<<<<<<< HEAD
     {
         // tipo + sabor + mail(solo usuario hasta el @) y fecha de la venta en la carpeta.
         $nombre_archivo = $cuenta->getNroCuenta() . $cuenta->getTipoCuenta() . ".jpg";
@@ -328,6 +329,24 @@ class Cuenta implements JsonSerializable
         }
         return "No hay cuentas cargadas! </br>";
     }
+=======
+        {
+            // tipo + sabor + mail(solo usuario hasta el @) y fecha de la venta en la carpeta.
+            $nombre_archivo = $cuenta->getNroCuenta() . $cuenta->getTipoCuenta() . ".jpg";
+
+            $destino = $folder . "/" . $nombre_archivo;
+    
+            // Mueve la imagen a la carpeta de destino usando move_uploaded_file
+            if (move_uploaded_file($_FILES['Imagen']['tmp_name'], $destino)) 
+            {
+                echo "La imagen se ha guardado con éxito. </br>";
+            } 
+            else 
+            {
+                echo "Hubo un problema al guardar la imagen. </br>";
+            }
+        }
+>>>>>>> 3524b0f8e18795ffba848d2b35fad10ac5f73129
 }
 
 ?>

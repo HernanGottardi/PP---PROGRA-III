@@ -2,6 +2,11 @@
 
 include_once("./Cuenta.php");
 
+<<<<<<< HEAD
+=======
+// NOTA: Hacer Try - Catch de setters Cuenta.
+
+>>>>>>> 3524b0f8e18795ffba848d2b35fad10ac5f73129
 try 
 {
     if (isset($_POST['Nombre']) && isset($_POST['Apellido']) 
